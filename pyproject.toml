@@ -1,0 +1,26 @@
+[build-system]
+requires = [
+    "setuptools>=68",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spline-craft"
+version = "1.0.0"
+description = "Spline Craft engine"
+readme = "README.md"
+authors = [
+    { name = "kuschanow", email = "kuschanow@gmail.com" }
+]
+requires-python = ">=3.13"
+
+dependencies = [
+]
+
+[project.urls]
+Homepage = "https://github.com/kuschanow/spline-craft"
+
+[tool.pytest.ini_options]
+markers = [
+]
